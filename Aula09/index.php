@@ -12,7 +12,7 @@
         include_once 'Livro.php';
         $p = array();
         $l = array();
-        $p[0]= new Pessoa("Fabricio", 19, "Masculino");
+        $p[0]= new Pessoa("Fabricio Terra", 19, "Masculino");
         $l[0] = new Livro("Carmatage", "Carlos Macaco", 150, $p[0]->getNome());
         $l[1] = new Livro("Ph é um otario", "Bolsonaro", 100, "Carlos");
         $l[0]->Detalhes();
